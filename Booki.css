@@ -1,0 +1,29 @@
+.condi {
+    background-color: #F2F2F2;
+}
+
+p
+{
+    max-width: 992px ;
+}
+
+header
+{
+    max-width: 992px ;
+}
+
+section
+{
+    max-width: 992px ;
+}
+
+footer
+{
+    max-width: 992px ;
+}
+
+img
+{
+    max-width:200px;
+    max-height: 150px;
+}
