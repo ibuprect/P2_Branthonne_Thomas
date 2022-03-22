@@ -1,6 +1,113 @@
+
+section {
+    display: block;
+}
+
+.fa-solid fa-location-dot fa-lg{
+    background-color: #F2F2F2;
+}
+.icon-cog {
+    color: #0065FC;
+  }
+
+
+.choix {
+    margin-right: 1px ;
+    color: black;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card  {
+    flex: 0 1 30% ;
+    justify-content: start;
+    size: 10px;
+}
+
+.card img {
+    width: 170px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #0065FC;
+    border-radius: 8px;
+    color: #eeeeee;
+    text-align: center;
+    font-size: 20px;
+    padding: 10x;
+    width: 200px;
+    height: 47px;
+    -webkit-transition: all 0.1s;
+    transition: all 0.1s;
+    cursor: pointer;
+    margin: -5px;
+}
+
+.boutton {
+    display: inline-block;
+    background-color: #ffffff;
+    border-radius: 30px;
+    color: #000000;
+    text-align: center;
+    font-size: 20px;
+    padding: 10x;
+    width: auto;
+    cursor: pointer;
+    margin: 25px;
+}
+
+
+
+body, html {
+    max-width: 992;
+    margin: 0px 0px 0px 30px;
+    font-family:'raleway';
+    font-size: large;
+}
+
 .condi {
     background-color: #F2F2F2;
 }
+
+.populaires {
+    background-color: #F2F2F2;
+    display: flex;
+    flex-wrap: wrap;
+}
+.hebergement {
+    background-color: #f0ebeb;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+choix
+    {
+        
+        margin-inline-end: auto;
+        color: black;
+        
+    }
+    
+
+.recherche  {
+
+    margin: 0px 0px 1px 70px
+}
+
+
+
+
+.head {
+    display: flex;
+    margin: 10px;
+}
+
 
 p
 {
@@ -27,3 +134,18 @@ img
     max-width:200px;
     max-height: 150px;
 }
+
+@media all and (min-widht 768) and (max-width 992px)
+{
+
+}
+ 
+
+
+@media all and (max-device-width: 480px)
+{
+    
+
+}
+
+
