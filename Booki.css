@@ -22,15 +22,25 @@ section {
 }
 
 .card  {
-    flex: 0 1 30% ;
     justify-content: start;
     size: 10px;
 }
 
-.card img {
-    width: 170px;
-    height: 100px;
-    object-fit: cover;
+.item img {
+    max-width: 50%;
+    max-height: 40%;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    max-width: 20%;
+}
+
+.item{
+    opacity: 1;
+    background-color: #F2F2F2;
+    border: #0065FC;
+    border-radius: 5%;
 }
 
 .btn {
@@ -63,7 +73,6 @@ section {
 }
 
 
-
 body, html {
     max-width: 992;
     margin: 0px 0px 0px 30px;
@@ -72,21 +81,34 @@ body, html {
 }
 
 .condi {
+    display:flex ;
     background-color: #F2F2F2;
+    font-size: medium;
+
+    
 }
 
 .populaires {
     background-color: #F2F2F2;
     display: flex;
     flex-wrap: wrap;
+    column-width: auto;
+    flex-direction: column ;
+    
 }
 .hebergement {
-    background-color: #f0ebeb;
     display: flex;
     flex-wrap: wrap;
+    float: left;
+    flex: 0 1 30% ;
+    background-color: #F2F2F2;
+    background-size: auto;
 }
 
-choix
+
+
+
+.choix
     {
         
         margin-inline-end: auto;
@@ -101,7 +123,9 @@ choix
 }
 
 
-
+.div {
+    display : block ;
+}
 
 .head {
     display: flex;
@@ -109,37 +133,15 @@ choix
 }
 
 
-p
+
+
+p img
 {
-    max-width: 992px ;
+ max-width: 40%;
+ max-height: 40%;
 }
 
-header
-{
-    max-width: 992px ;
-}
 
-section
-{
-    max-width: 992px ;
-}
-
-footer
-{
-    max-width: 992px ;
-}
-
-img
-{
-    max-width:200px;
-    max-height: 150px;
-}
-
-@media all and (min-widht 768) and (max-width 992px)
-{
-
-}
- 
 
 
 @media all and (max-device-width: 480px)

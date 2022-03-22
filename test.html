@@ -1,89 +1,197 @@
+
 <!Doctype html>
 <html>
      <head>
          <meta charset="utf-8"/>
          <link rel="stylesheet" href="Booki.css"/>
-         <link rel="preconnect" href="https://fonts.googleapis.com">
-         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-         <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet">
+         <link rel="preconnect" href="https://fonts.googleapis.com"/>
+         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+         <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet"/>
+         <script src="https://kit.fontawesome.com/4099d548f4.js" crossorigin="anonymous"></script>
          <title>booki</title>
      </head>
 
  <body>
-     <div class="booki"> 
-        <header>   
+      <header>   
             <div class="head">      
-            <img src="C:\Users\brant\Documents\P2_BRanthonne_Thomas\images\logo\Booki.png" alt="voyage">  
-                <div class="choix">
-            <a href="Hebergements"> Hebergements  </a>
-            <a href="Activités"> Activités > </a> 
-                </div>
+             <p1><img src="C:\Users\brant\Documents\P2_BRanthonne_Thomas\images\logo\Booki.png" alt="voyage">  
+                <a href="Hebergements"> Hebergements  </a>
+                <a href="Activités"> Activités > </a> 
+             </p1>
             </div>
            
-        </header>
+      </header>
     
     
         <nav>
         <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
-            <p1>En plein centre ville ou en pleine nature</p1>
-           >
-        
-             
-            
-             </div>   
+            <p>En plein centre ville ou en pleine nature</p>
+            <form class="moteur">
+                <div class="Recherche">
+                     <div class="item"><h> <i class="fa-solid fa-location-dot fa-lg"></i> </div>
+                   <input type="text" name="Recherche" id="Ville" placeholder="Marseille, France" size="40" style="width: 75; height: 40px;" />
+                     <button class="btn" type="submit">Rechercher</button>
+                   <div class="input-group-append">
+                   </h>
+            </div>    
             </form>
-         <h2>Filtres</h2>
-         <p3>Plus de 500 logements sont disponibles dans cette ville</p3>
+         <div class="filtres">
+          <h>Filtres  
+            <i class="fa-solid fa-money-bill-wave"> <button class="boutton" type="submit">économique</button>  </i>
+            <i class="fa-solid fa-child"><button class="boutton" type="submit">Familial</button>  </i>
+            <i class="fa-solid fa-heart"> <button class="boutton" type="submit">Romantique</button> </i>
+            <i class="fa-solid fa-dog" > <button class="boutton" type="submit">Animaux autorisés</button>  </i>
+          </h>
+            <p> <i class="fa-solid fa-info"></i> Plus de 500 logements sont disponibles dans cette ville</p>
+         </div>
         </nav>
  
         
-     <section>
         <main>
-            <h3> hébergements à Marseille  Les plus populaires   </h3>
-        <div class="hebergements">
-             <div class="container">
-             <div class='fond'></div>
-              <img src="C:\Users\brant\Documents\P2_BRanthonne_Thomas\images\activites\4_small\kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" tittle=""/>"
-        
-        </div>
+            <h3> hébergements à Marseille </h3>
+        <div class="container">
+             <section class="cards">
+                 
+                <article class="item">
+                <img src="C:\Users\brant\Documents\P2_BRanthonne_Thomas\images\hebergements\4_small\marcus-loke-WQJvWU_HZFo-unsplash.jpg" title=""/> 
+                 <p> Auberge de la cannebière<br>
+                  Nuit à partir de 25€<br>
+                  <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-thin fa-star"></i>  </p>
+                </article>
+                
+                <article class="item">                    
+                    <img src="C:\Users\brant\Documents\P2_BRanthonne_Thomas\images\hebergements\4_small\fred-kleber-gTbaxaVLvsg-unsplash.jpg" title=""/> 
+                     <p> Hôtel du port<br>
+                      Nuit à partir de 52€<br>
+                      <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>  </p>
+                    </article>  
 
-    </article>
-</div>
-        </div>
+                     <article class="item">
+                    <img src="C:\Users\brant\Documents\P2_BRanthonne_Thomas\images\hebergements\4_small\reisetopia-B8WIgxA_PFU-unsplash.jpg" title=""/> 
+                  <p> Hôtel les mouettes<br>
+                  Nuit à partir de 76€<br>
+                  <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-thin fa-star"></i>  </p>
+                </article>
+                
+                <article class="item">
+                    <img src="C:\Users\brant\Documents\P2_BRanthonne_Thomas\images\hebergements\4_small\marcus-loke-WQJvWU_HZFo-unsplash.jpg" title=""/> 
+                     <p> Hôtel de la mer<br>
+                     Nuit à partir de 46€<br>
+                      <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-thin fa-star"></i><i class="fa-thin fa-star"></i>  </p>
+                    </article>  
+                    
+                    <article class="item">
+                    <img src="C:\Users\brant\Documents\P2_BRanthonne_Thomas\images\hebergements\4_small\nicate-lee-kT-ZyaiwBe0-unsplash.jpg" title=""/> 
+                     <p> Auberge Le panier<br>
+                      Nuit à partir de 23€<br>
+                      <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>  </p>
+
+                      <article class="item">
+                    <img src="C:\Users\brant\Documents\P2_BRanthonne_Thomas\images\hebergements\4_small\febrian-zakaria-M6S1WvfW68A-unsplash.jpg" title=""/> 
+                     <p> Hotel chez Amina<br>
+                      Nuit à partir de 96€<br>
+                      <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>  </p>
+                    </article>  
+                </div>
     </section>
-     <div class="Populaires" >
-         <img src="C:\Users\brant\Documents\P2_BRanthonne_Thomas\images\hebergements\4_small\aw-creative-VGs8z60yT2c-unsplash.jpg" tittle=""/>
-         <img src="C:\Users\brant\Documents\P2_BRanthonne_Thomas\images\hebergements\4_small\fred-kleber-gTbaxaVLvsg-unsplash.jpg" tittle=""/>
-         <img src="C:\Users\brant\Documents\P2_BRanthonne_Thomas\images\hebergements\4_small\reisetopia-B8WIgxA_PFU-unsplash.jpg" tittle=""/> 
-     </div>
+        <div class="container" ></div>
+    
+ 
+         <section class="cards">
+            <h7>  Les plus populaires <i class="fa-solid fa-arrow-trend-up"></i> </h7>
+            <article class="item">
+            
+            <img src="C:\Users\brant\Documents\P2_BRanthonne_Thomas\images\hebergements\4_small\emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" title=""/> 
+             <p> Hôtel Le soleil du matin<br>
+              Nuit à partir de 128€<br>
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>  </p>
+            </article>
+            
+            <article class="item">                    
+                <img src="C:\Users\brant\Documents\P2_BRanthonne_Thomas\images\hebergements\4_small\aw-creative-VGs8z60yT2c-unsplash.jpg" title=""/> 
+                 <p> Au coeur de l'eau chambre d'hôtes<br>
+                  Nuit à partir de 71€<br>
+                  <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>  </p>
+                </article>    
+
+                 <article class="item">
+                <img src="C:\Users\brant\Documents\P2_BRanthonne_Thomas\images\hebergements\4_small\febrian-zakaria-sjvU0THccQA-unsplash.jpg" title=""/> 
+              <p> Hôtel Tout bleu et Blanc<br>
+              Nuit à partir de 68€<br>
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>  </p>
+            </article>
+       </div>
+     </section>
 
 
     <section>
 <h4>Activités à Marseille</H4>
-     <img src="C:\Users\brant\Documents\P2_BRanthonne_Thomas\images\activites\4_small\reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" tittle=""/>
-     <img src="C:\Users\brant\Documents\P2_BRanthonne_Thomas\images\activites\4_small\paul-hermann-QFTrLdQIRhI-unsplash.jpg" tittle=""/>
-     <img src="C:\Users\brant\Documents\P2_BRanthonne_Thomas\images\activites\4_small\kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" tittle=""/>
-     <img src="C:\Users\brant\Documents\P2_BRanthonne_Thomas\images\activites\4_small\kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" tittle=""/>
-     <img src="C:\Users\brant\Documents\P2_BRanthonne_Thomas\images\activites\4_small\florian-wehde-xW9e8gdotxI-unsplash.jpg" tittle=""/>
-     <img src="C:\Users\brant\Documents\P2_BRanthonne_Thomas\images\activites\4_small\lena-paulin-wH2-EJoDcV0-unsplash.jpg" tittle=""/>
+  <div class="Activités à Marseillle" >
+         <section class="cards">
+                 
+            <article class="card">
+            <img src="C:\Users\brant\Documents\P2_BRanthonne_Thomas\images\activites\4_small\reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" title=""/> 
+             <p> Vieux port  </p>
+            </article>
 
+             <article class="card">
+            <img src="C:\Users\brant\Documents\P2_BRanthonne_Thomas\images\activites\4_small\paul-hermann-QFTrLdQIRhI-unsplash.jpg" title=""/> 
+             <p> Fort de Pomègues  </p>
+            </article>
+
+             <article class="card">
+            <img src="C:\Users\brant\Documents\P2_BRanthonne_Thomas\images\activites\4_small\kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" title=""/> 
+             <p> Iles du Frioul  </p>
+            </article>
+
+             <article class="card">
+            <img src="C:\Users\brant\Documents\P2_BRanthonne_Thomas\images\activites\4_small\kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" title=""/> 
+             <p> Parc national des calanques  </p>
+            </article>
+
+             <article class="card">
+            <img src="C:\Users\brant\Documents\P2_BRanthonne_Thomas\images\activites\4_small\florian-wehde-xW9e8gdotxI-unsplash.jpg" title=""/> 
+             <p> Note-Dame-de-la-Garde  </p>
+            </article>
+
+             <article class="card">
+            <img src="C:\Users\brant\Documents\P2_BRanthonne_Thomas\images\activites\4_small\lena-paulin-wH2-EJoDcV0-unsplash.jpg" title=""/> 
+             <p> Parc Longchamp  </p>
+            </article>
         </section>
-  
-   
-    </main>
+  </div>  
+</main>
    
      <footer> 
-         <div class="condi"><h5> A propos    Nos hébergements      
-             <a href="#"> Charte qualité </a>
-             <a href="#"> Centre d'aide </a>
-             <a href="#"> Conditions générales de vente </a>
-             <a href="#"> Soumettre un hôtel </a>
-             <a href="#"> Nous contacter </a>
-             <a href="#"> Données et confidentialité </a>
-                    </h5>
+         <div class="condi">
+            <section class="cards">
+               
+              <article class="card">
+                 <h1> A propos </h1>
+                   <p> <a href="#"> Charte qualité </a>  <br>
+                     <a href="#"> Conditions générales de vente</a>  <br>
+                     <a href="#"> Données et confidentialité </a>
+                  </p>
+              </article>
+
+                <article class="card">
+                 <h1> Nos hébergements </h1>
+                   <p> <a href="#"> charte qualité </a>  <br>
+                     <a href="#"> Soumettre votre hôtel</a>  <br>
+                  </p>
+              </article>
+
+              <article class="card">
+                 <h1> Assistance </h1>
+                   <p> <a href="#"> centre d'aide </a>  <br>
+                     <a href="#"> Nous contacter</a>  <br>
+                  </p>
+              </article>
+            </section>     
+
+                    
                 </div> 
     </footer>
-    </div> 
    </body>
 
 </html>
