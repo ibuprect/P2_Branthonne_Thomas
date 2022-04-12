@@ -1,5 +1,4 @@
 html{
-	margin-left: 20px;
 	display: flex;
 }
 
@@ -15,6 +14,7 @@ header {
     margin: 40px;
 }
 
+
 .choix {
     display: flex;
     font-size: 1em;
@@ -28,7 +28,7 @@ header {
 }
 
 .choixtitre {
-    margin-left: -100%;
+    margin-left: -10%;
 }
 
 .sous {
@@ -46,17 +46,6 @@ header {
 }
 
 .sous:hover:before {
-    width: 100%;
-}
-
-.survol {
-    height: 3px;
-    background-color: #0065FC;
-    width: 0%;
-    transition: 1s;
-}
-
-li:hover>div{
     width: 100%;
 }
 
@@ -171,7 +160,8 @@ hr {
     padding: 0 0 0 15px;
     font-size: 1.1rem;
     font-weight: 600;
-    width: 230px;
+    width: 250px;
+    height: 47px;
 }
 
 .btn {
@@ -181,7 +171,7 @@ hr {
     color: #eeeeee;
     text-align: center;
     font-size: 20px;
-    padding: 10x;
+    padding: 10px;
     width: 200px;
     height: 47px;
     -webkit-transition: all 0.1s;
@@ -244,9 +234,10 @@ hr {
     color: #0065FC;
 }
 
-p5 {
+p {
     display: flex;
     font-size: large;
+    margin-top: auto;
 }
 
 .liste{
@@ -406,7 +397,7 @@ h4 {
     margin-left: 10px;
 }
 
-h8 {
+.titreP {
     display: flex;
     font-size: 1.5em;
     margin-block-start: 1em;
@@ -577,6 +568,7 @@ h6{
 footer {
     padding: 40px 50px 50px;
     background-color: #f2f2f2;
+    width: auto;
 }
 
 .fin {
@@ -587,7 +579,17 @@ footer div {
 	flex:1;
 }
 
-h7 {
+h {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.footer text {
     display: block;
     font-size: 1.17em;
     margin-block-start: 1em;
@@ -635,6 +637,7 @@ footer li{
 
     .populaires {
         margin-left: 30px ;
+        width: 88%;
     }
 
     footer {
@@ -655,7 +658,7 @@ footer li{
         }
     	
         header {
-            margin : Opx; 
+            margin : 1px; 
 
         }
 
@@ -710,6 +713,7 @@ footer li{
 
     .box {
         margin-right: 0px;
+        width: 100%;
     }
 
     .partiehaute {
@@ -718,6 +722,7 @@ footer li{
     
     .populaire {
         margin-right: auto;
+        width: auto;
     }
 
     .les_plus_populaires {
@@ -771,7 +776,6 @@ footer li{
             .activités-orga-card {
             margin: auto;
             width: 95% ;
-            box-shadow: inset  black;
 
             }
             .activités-orga-card-image a {
